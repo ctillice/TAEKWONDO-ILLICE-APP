@@ -1,0 +1,9 @@
+{
+  "short_name": "Taekwondo",
+  "name": "Taekwondo App",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2f5597",
+  "background_color": "#ffffff"
+}

@@ -4,8 +4,9 @@ import Alumnos from "./pages/Alumnos";
 import Asistencia from "./pages/Asistencia";
 import Consentimientos from "./pages/Consentimientos";
 import Recibos from "./pages/Recibos";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="app">
       <div className="content">
@@ -25,4 +26,3 @@ function App() {
     </div>
   );
 }
-export default App;
