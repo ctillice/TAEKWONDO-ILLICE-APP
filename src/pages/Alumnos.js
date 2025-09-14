@@ -1,0 +1,1 @@
+import React from 'react'; export default function Alumnos(){const alumnos=[{nombre:'Juan Pérez',grupo:'Niños',cuota:'25€'},{nombre:'María López',grupo:'Adultos',cuota:'30€'}];return(<div><h2>Alumnos</h2>{alumnos.map((a,i)=>(<div className='card' key={i}><p><b>{a.nombre}</b></p><p>Grupo: {a.grupo}</p><p>Cuota: {a.cuota}</p></div>))}</div>)}
