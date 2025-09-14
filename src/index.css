@@ -12,3 +12,4 @@ label{display:block;margin:.2rem 0 .4rem;font-size:.9rem;color:#344054}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
 .row-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem}
 .mt-1{margin-top:.5rem}.mt-2{margin-top:1rem}.mt-3{margin-top:1.5rem}
+.select{width:100%}

@@ -82,14 +82,14 @@ export default function Alumnos() {
         <div className="row mt-1">
           <div>
             <label>Grupo</label>
-            <select name="grupo" value={form.grupo} onChange={handleChange}>
+            <select name="grupo" value={form.grupo} onChange={handleChange} className="select">
               <option>Niños</option>
               <option>Adultos</option>
             </select>
           </div>
           <div>
             <label>Cuota €/mes</label>
-            <select name="cuota" value={form.cuota} onChange={handleChange}>
+            <select name="cuota" value={form.cuota} onChange={handleChange} className="select">
               <option value="25">25</option>
               <option value="30">30</option>
             </select>
