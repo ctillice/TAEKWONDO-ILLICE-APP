@@ -2,7 +2,7 @@
   "name": "taekwondo-cra",
   "version": "1.0.0",
   "private": true,
-  "engines": {
+  "engines": { "node": "22.x" }
     "node": "18.x"
   },
   "dependencies": {
