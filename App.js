@@ -16,7 +16,6 @@ function App() {
           <Route path="/recibos" element={<Recibos />} />
         </Routes>
       </div>
-
       <nav className="navbar">
         <Link to="/">👥 Alumnos</Link>
         <Link to="/asistencia">✅ Asistencia</Link>
@@ -26,5 +25,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

@@ -1,13 +1,6 @@
 import React from "react";
-
 export default function Recibos() {
-  const recibo = {
-    alumno: "Juan Pérez",
-    grupo: "Niños",
-    mes: "Septiembre 2025",
-    importe: "25€"
-  };
-
+  const recibo = { alumno: "Juan Pérez", grupo: "Niños", mes: "Septiembre 2025", importe: "25€" };
   return (
     <div>
       <h2>Recibo</h2>

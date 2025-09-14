@@ -1,11 +1,9 @@
 import React from "react";
-
 export default function Alumnos() {
   const alumnos = [
     { nombre: "Juan Pérez", grupo: "Niños", cuota: "25€" },
     { nombre: "María López", grupo: "Adultos", cuota: "30€" }
   ];
-
   return (
     <div>
       <h2>Alumnos</h2>
